@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphs and Table</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Graphs and Table</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Graphs
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Line Graph</a>
+                <a class="dropdown-item" href="#">Bar Graph</a>
+                <a class="dropdown-item" href="#">Pie Graph</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Table</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid main-content">
+      <div class="row">
+        <aside class="col-md-4 col-lg-3 sidebar">
+          <h2>Sidebar</h2>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+          </ul>
+        </aside>
+
+        <main class="col-md-8 col-lg-9">
+          <h1 class="mb-4">Graphs</h1>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="card-title">Line Graph</h3>
+                </div>
+                <div class="card-body">
+                  <canvas id="line" height="300"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="card-title">Bar Graph</h3>
+                </div>
+                <div class="card-body">
+                  <canvas id="bar" height="300"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="card-title">Pie Chart</h3>
+                </div>
+                <div class="card-body">
+                  <canvas id="pie"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table-container">
+            <h1 class="mb-3">Table</h1>
+            <div class="table-responsive">
+              <table id="datatable-example1" class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Nick Name</th>
+                    <th>Email</th>
+                    <th>Company Name</th>
+                    <th>Work</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr></tr>
+                  <tr></tr>
+                  <tr></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-light py-3">
+      <div class="container">
+        <p class="text-center m-0">
+          &copy; Bansi Saboo (8878593) & Dhrumil Patel (8879301). All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

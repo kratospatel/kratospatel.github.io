@@ -1,0 +1,32 @@
+{
+    "employees": [
+        {
+            "name": "Hasnain Moore",
+            "employeeId": 12345,
+            "regularHours": 50,
+            "overtimeHours": 15,
+            "vacationHours": 7
+        },
+        {
+            "name": "Abraham Cooper",
+            "employeeId": 12346,
+            "regularHours": 32,
+            "overtimeHours": 6,
+            "vacationHours": 3
+        },
+        {
+            "name": "Flynn Anthony",
+            "employeeId": 12347,
+            "regularHours": 40,
+            "overtimeHours": 8,
+            "vacationHours": 4
+        },
+        {
+            "name": "Alivia Forbes",
+            "employeeId": 12348,
+            "regularHours": 48,
+            "overtimeHours": 9,
+            "vacationHours": 8
+        }
+    ] 
+}
